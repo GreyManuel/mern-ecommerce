@@ -75,7 +75,9 @@ export const addProductFormElements = [
       { id: "casio", label: "Casio" },
       { id: "roland", label: "Roland" },
       { id: "kurzweil", label: "Kurzweil" },
-      { id: "h&m", label: "H&M" },
+      { id: "behringer", label: "Behringer" },
+      { id: "akg", label: "AKG" },
+      { id: "electrovoice", label: "Electro-Voice (EV)" },
     ],
   },
   {
@@ -158,7 +160,9 @@ export const brandOptionsMap = {
   casio: "Casio",
   roland: "Roland",
   kurzweil: "Kurzweil",
-  "h&m": "H&M",
+  behringer: "Behringer",
+  akg: "AKG",
+  electrovoice: "Electro-Voice (EV)",
 };
 
 export const filterOptions = {
@@ -175,7 +179,9 @@ export const filterOptions = {
     { id: "casio", label: "Casio" },
     { id: "roland", label: "Roland" },
     { id: "kurzweil", label: "Kurzweil" },
-    { id: "h&m", label: "H&M" },
+    { id: "behringer", label: "Behringer" },
+    { id: "akg", label: "AKG" },
+    { id: "electrovoice", label: "Electro-Voice (EV)" },
   ],
 };
 

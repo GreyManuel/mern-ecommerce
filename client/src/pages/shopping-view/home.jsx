@@ -8,11 +8,15 @@ import {
   ChevronLeftIcon,
   ChevronRightIcon,
   CloudLightning,
+  DiscAlbum,
   Heater,
   Images,
+  MicVocal,
+  Piano,
   Shirt,
   ShirtIcon,
   ShoppingBasket,
+  Speaker,
   UmbrellaIcon,
   WashingMachine,
   WatchIcon,
@@ -32,10 +36,10 @@ import ProductDetailsDialog from "@/components/shopping-view/product-details";
 import { getFeatureImages } from "@/store/common-slice";
 
 const categoriesWithIcon = [
-  { id: "speaker", label: "Speakers", icon: ShirtIcon },
-  { id: "piano", label: "Piano", icon: CloudLightning },
-  { id: "microphone", label: "Microphones", icon: BabyIcon },
-  { id: "mixer", label: "Mixers", icon: WatchIcon },
+  { id: "speaker", label: "Speakers", icon: Speaker },
+  { id: "piano", label: "Piano", icon: Piano },
+  { id: "microphone", label: "Microphones", icon: MicVocal },
+  { id: "mixer", label: "Mixers", icon: DiscAlbum },
   { id: "amplifier", label: "Amplifiers", icon: UmbrellaIcon },
 ];
 
@@ -45,7 +49,6 @@ const brandsWithIcon = [
   { id: "casio", label: "Casio", icon: ShoppingBasket },
   { id: "roland", label: "Roland", icon: Airplay },
   { id: "kurzweil", label: "Kurzweil", icon: Images },
-  { id: "h&m", label: "H&M", icon: Heater },
 ];
 function ShoppingHome() {
   const [currentSlide, setCurrentSlide] = useState(0);
